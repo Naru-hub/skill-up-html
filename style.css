@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  background-color: #ec715f;
+}
+
+.header_inner {
+  width: 1024px;
+  margin: auto;
+}
+
+.header_logo {
+  height: 70px;
+  text-align: center;
+}
+
+.nav-list {
+  font-size: 16px;
+  color: #fafafa;
+  display: flex;
+  position: absolute;
+  top: 5px;
+  right: 10%;
+}
+
+.nav-list-item {
+  list-style: none;
+  padding: 20px 30px;
+}
+
+.main_visual {
+  height: 650px;
+  width: 100%;
+  background-image: url("img/mv.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.main_visual_text {
+  text-align: center;
+  color: #fafafa;
+  padding-top: 200px;
+}
+
+.main_visual_text h2 {
+  font-size: 64px;
+}
+
+.main_visual_text p {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.portfolio {
+  margin: 0 auto;
+  background-color: #eceff1;
+  height: 850px;
+}
+
+.portfolio_inner {
+  width: 920px;
+  padding: 90px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.portfolio_title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000000;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.portfolio_border {
+  border-bottom: solid #ec715f;
+  position: absolute;
+  left: 50%;
+  bottom: -10px;/*線の上下位置*/
+  display: inline-block;
+  width: 70px;/*線の長さ*/
+  height: 3px;/*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+}
+
+.portfolio_text {
+  font-size: 16px;
+  color: #000000;
+  padding: 30px 0;
+}
+
+.portfolio_image_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.portfolio_image1 {
+  background-image: url("img/sketch.jpg") ;
+  height: 250px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+}
+.portfolio_image2 {
+  background-image: url("img/websuku.png") ;
+  height: 250px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio_image3 {
+  background-image: url("img/write.jpg") ;
+  height: 250px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio_image4 {
+  background-image: url("img/webcamp.png") ;
+  height: 250px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+}
+
+.portfolio_image5 {
+  background-image: url("img/talk.jpg") ;
+  height: 250px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+}
+
+.portfolio_image6 {
+  background-image: url("img/webcamp-mother.png") ;
+  height: 250px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+}
+
