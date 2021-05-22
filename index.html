@@ -11,24 +11,24 @@
 <body>
   <header>
     <div class="header_inner">
-          <img class="header_logo" src= "img/logo.png">
+          <a href="#heading"><img class="header_logo" src= "img/logo.png"></a>
         <nav>
           <ul class="nav-list">
-            <li class="nav-list-item">Portfolio</li>
-            <li class="nav-list-item">Feature</li>
-            <li class="nav-list-item">Profile</li>
-            <li class="nav-list-item">Contact</li>
+            <li class="nav-list-item"><a href="#section1">Portfolio</a></li>
+            <li class="nav-list-item"><a href="#section2">Feature</a></li>
+            <li class="nav-list-item"><a href="#section3">Profile</a></li>
+            <li class="nav-list-item"><a href="#section4">Contact</a></li>
           </ul>
         </nav>
     </div>
   </header>
-  <div class="main_visual">
+  <div id="heading" class="main_visual">
     <div class="main_visual_text">
       <h2>Lorem Ipsum</h2>
       <p>simply dummy text of the printing</p>
     </div>
   </div>
-    <div class="portfolio">
+    <div id="section1" class="portfolio">
       <div class="portfolio_inner">
         <div class="title">
           Portfolio
@@ -49,7 +49,7 @@
             </div>
       </div>
     </div>
-  <div class="feature">
+  <div id="section2" class="feature">
     <div class="feature-inner">
       <div class="title">
         Feature
@@ -80,11 +80,11 @@
       </div>
     </div>
   </div>
-  <div class="profile">
+  <div id="section3" class="profile">
     <div class="profile-inner">
       <div class="title">
         Profile
-      <div class="border"></div>
+        <div class="border"></div>
       </div>
       <div class="text">
         It is a long established fact that a reader will be distracted by the readable<br>
@@ -93,7 +93,7 @@
       </div>
       <div class="profile_content">
           <div class="profile_content_left">
-            <img class="profile_image" src="img/my-icon.jpg">
+            <img src="img/my-icon.jpg" alt="" class="profile_image">
           </div>
           <div class="profile_content_right">
             <div class="profile_title">MyName</div>
@@ -110,7 +110,37 @@
         </div>
       </div>
     </div>
-  <div class="contact"></div>
+  <div id="section4" class="contact">
+    <div class="contact-inner">
+      <div class="title">
+        Contact
+        <div class="border"></div>
+      </div>
+      <div class="text">
+        It is a long established fact that a reader will be distracted by the readable<br>
+        content of a page when looking at its layout.<br>
+        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+      </div>
+      <div class="contact_form">
+        <div class="contact_form_left">
+          <div class="contact_title">Mail</div>
+          <div class="contact_string"><a href="mailto:info@example.com">xxx@xxx.com</a></div>
+          <div class="contact_title">Tel</div>
+          <div class="contact_string"><a href="tel:">000-0000-0000</a></div>
+        </div>
+        <div class="contact_form_right">
+          <div class="contact_title">SNS</div>
+            <div class="contact_icon_group">
+                <div class="contact_icon"><i class="fab fa-facebook-f"></i></div>
+                <div class="contact_icon"><i class="fab fa-twitter"></i></div>
+                <div class="contact_icon"><i class="fab fa-instagram"></i></div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
 
 
     <footer></footer>
