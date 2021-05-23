@@ -271,20 +271,37 @@ a {
   margin-bottom: 5px;
   font-size: 20px;
   font-weight: bold;
+  margin-right: 30%;
 }
 
 .contact_string {
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 .contact_string a {
   text-decoration: underline;
   color: #212121;
+  margin-right: 12%;
 }
 
 .contact_icon_group {
-
+display: flex;
+justify-content: center;
 }
-.contact_icon {
 
+.contact_icon {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+footer {
+  height: 60px;
+  background-color: #ec715f;
+  line-height: 60px;
+}
+
+.copyright {
+  font-size: 16px;
+  color: #fafafa;
+  text-align: center;
 }
