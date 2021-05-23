@@ -263,30 +263,35 @@ a {
   width: 400px;
 }
 
+
 .contact_form_right {
   width: 400px;
+}
+
+.contact_contents {
+  text-align: left;
+  margin-left: 40%;
 }
 
 .contact_title {
   margin-bottom: 5px;
   font-size: 20px;
   font-weight: bold;
-  margin-right: 30%;
 }
 
 .contact_string {
   margin-bottom: 20px;
+
 }
 
 .contact_string a {
   text-decoration: underline;
   color: #212121;
-  margin-right: 12%;
 }
 
 .contact_icon_group {
 display: flex;
-justify-content: center;
+justify-content: left;
 }
 
 .contact_icon {
